@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'hangnapp_wp' );
 
 /** Database username */
-define( 'DB_USER', 'mcgarryg' );
+define( 'DB_USER', 'mcgarryg_wp' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'hellorcpe' );
+define( 'DB_PASSWORD', 'C@ountry123' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -90,6 +90,10 @@ define( 'WP_DEBUG_LOG', true);
 define( 'WP_DEBUG_DISPLAY', true);
 
 /* Add any custom values between this line and the "stop editing" line. */
+
+// Force WordPress to use the correct URLs
+define( 'WP_HOME', 'https://hangnapp.com' );
+define( 'WP_SITEURL', 'https://hangnapp.com' );
 
 
 
