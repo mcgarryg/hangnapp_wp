@@ -1,0 +1,51 @@
+[31-Jan-2026 08:29:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Elementor\Modules\EditorOne\Classes\mb_convert_case() in /opt/hangnapp_wp/wp-content/plugins/elementor/modules/editor-one/classes/menu-data-provider.php:538
+Stack trace:
+#0 /opt/hangnapp_wp/wp-content/plugins/elementor/modules/editor-one/classes/menu-data-provider.php(397): Elementor\Modules\EditorOne\Classes\Menu_Data_Provider->title_case()
+#1 /opt/hangnapp_wp/wp-content/plugins/elementor/modules/editor-one/classes/menu-data-provider.php(335): Elementor\Modules\EditorOne\Classes\Menu_Data_Provider->create_flyout_item_data()
+#2 /opt/hangnapp_wp/wp-content/plugins/elementor/modules/editor-one/classes/menu-data-provider.php(295): Elementor\Modules\EditorOne\Classes\Menu_Data_Provider->build_flyout_items()
+#3 /opt/hangnapp_wp/wp-content/plugins/elementor/modules/editor-one/classes/menu-data-provider.php(149): Elementor\Modules\EditorOne\Classes\Menu_Data_Provider->build_flyout_items_with_expanded_third_party()
+#4 /opt/hangnapp_wp/wp-content/plugins/elementor/modules/editor-one/classes/menu-data-provider.php(117): Elementor\Modules\EditorOne\Classes\Menu_Data_Provider->get_third_level_data_from_cache()
+#5 /opt/hangnapp_wp/wp-content/plugins/elementor/core/admin/editor-one-menu/elementor-one-menu-manager.php(316): Elementor\Modules\EditorOne\Classes\Menu_Data_Provider->get_third_level_data()
+#6 /opt/hangnapp_wp/wp-includes/class-wp-hook.php(341): Elementor\Core\Admin\EditorOneMenu\Elementor_One_Menu_Manager->enqueue_admin_menu_assets()
+#7 /opt/hangnapp_wp/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /opt/hangnapp_wp/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /opt/hangnapp_wp/wp-admin/admin-header.php(123): do_action()
+#10 /opt/hangnapp_wp/wp-admin/index.php(137): require_once('...')
+#11 {main}
+  thrown in /opt/hangnapp_wp/wp-content/plugins/elementor/modules/editor-one/classes/menu-data-provider.php on line 538
+[31-Jan-2026 09:01:21 UTC] Automatic updates starting...
+[31-Jan-2026 09:01:21 UTC] Automatic updates complete.
+[31-Jan-2026 09:14:20 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /opt/hangnapp_wp/wp-content/plugins/elementor/includes/template-library/sources/local.php:977
+Stack trace:
+#0 /opt/hangnapp_wp/wp-content/plugins/elementor/includes/template-library/manager.php(586): Elementor\TemplateLibrary\Source_Local->import_template()
+#1 /opt/hangnapp_wp/wp-content/plugins/elementor/includes/template-library/manager.php(970): Elementor\TemplateLibrary\Manager->direct_import_template()
+#2 /opt/hangnapp_wp/wp-includes/class-wp-hook.php(341): Elementor\TemplateLibrary\Manager->handle_direct_actions()
+#3 /opt/hangnapp_wp/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /opt/hangnapp_wp/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /opt/hangnapp_wp/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+  thrown in /opt/hangnapp_wp/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 977
+[31-Jan-2026 09:15:11 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /opt/hangnapp_wp/wp-content/plugins/elementor/includes/template-library/sources/local.php:977
+Stack trace:
+#0 /opt/hangnapp_wp/wp-content/plugins/elementor/includes/template-library/manager.php(586): Elementor\TemplateLibrary\Source_Local->import_template()
+#1 /opt/hangnapp_wp/wp-content/plugins/elementor/includes/template-library/manager.php(970): Elementor\TemplateLibrary\Manager->direct_import_template()
+#2 /opt/hangnapp_wp/wp-includes/class-wp-hook.php(341): Elementor\TemplateLibrary\Manager->handle_direct_actions()
+#3 /opt/hangnapp_wp/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#4 /opt/hangnapp_wp/wp-includes/plugin.php(522): WP_Hook->do_action()
+#5 /opt/hangnapp_wp/wp-admin/admin-ajax.php(192): do_action()
+#6 {main}
+  thrown in /opt/hangnapp_wp/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 977
+[31-Jan-2026 09:27:37 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /opt/hangnapp_wp/wp-admin/includes/class-theme-upgrader.php on line 160
+[31-Jan-2026 09:57:58 UTC] PHP Warning:  Undefined property: stdClass::$id in /opt/hangnapp_wp/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 766
+[31-Jan-2026 09:57:58 UTC] PHP Warning:  Undefined property: stdClass::$post_parent in /opt/hangnapp_wp/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 769
+[31-Jan-2026 10:00:29 UTC] PHP Warning:  Undefined property: stdClass::$id in /opt/hangnapp_wp/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 766
+[31-Jan-2026 10:00:29 UTC] PHP Warning:  Undefined property: stdClass::$post_parent in /opt/hangnapp_wp/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 769
+[31-Jan-2026 10:00:48 UTC] Cron reschedule event error for hook: wp_update_themes, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[01-Feb-2026 20:48:07 UTC] Automatic updates starting...
+[01-Feb-2026 20:48:08 UTC] Automatic updates complete.
+[02-Feb-2026 00:27:19 UTC] Automatic updates starting...
+[02-Feb-2026 00:27:20 UTC] Automatic updates complete.
+[02-Feb-2026 01:22:23 UTC] PHP Warning:  Undefined property: stdClass::$id in /opt/hangnapp_wp/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 766
+[02-Feb-2026 01:22:23 UTC] PHP Warning:  Undefined property: stdClass::$post_parent in /opt/hangnapp_wp/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 769
+[02-Feb-2026 09:00:59 UTC] Automatic updates starting...
+[02-Feb-2026 09:00:59 UTC] Automatic updates complete.
